@@ -20,18 +20,30 @@
 
 
     <main>
-        <section id="form-area">
+        <section id="formarea">
 
-            <div class="form-top">
+            <div class="formarea-top">
                 <h1>CONTACT</h1>
-                <p>ssssssssssssssssssssssssss</p>
+                <p>弊社へのお問い合わせはメール、もしくはお電話にて承ります。<br>
+                    メールでのお問い合わせは以下のフォームをご利用ください。<br>
+                    アプリのセールス・人材サービス・企業向け営業のお問い合わせはご遠慮下さい。</p>
             </div>
-            <div class="form-list">
-                <form action="" method="post">
-                    <input type="text" name="name" placeholder="Name">
-                    <input type="email" name="email" placeholder="Email">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    <input type="submit" value="送信">
+            <div class="formarea-group">
+                <form action="" method="post"></form>
+                <p>お問い合わせ種別</p>
+                <span class="radio-list">
+                    <input type="radio" name="kind" value="お仕事の相談">お仕事の相談
+                    <input type="radio" name="kind" value="お仕事の依頼">採用について
+                    <input type="radio" name="kind" value="お仕事の依頼">遊びのお誘い
+                    <input type="radio" name="kind" value="お仕事の依頼">その他お問い合わせ
+                </span>
+                <p>お名前</p>
+                <input type="text" name="name" placeholder="Name" class="form-name"><br>
+                <p>Mail</p>
+                <input type="email" name="email" placeholder="Email" class="form-mail"><br>
+                <p>お問い合わせ内容</p>
+                <textarea name="" id="" cols="30" rows="10" class="form-text"></textarea><br>
+                <input type="submit" value="送信" class="form-submit">
                 </form>
             </div>
             </div>
