@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header（仮） */
+
+header{
+    height: 50px;
+    width: 100vw;
+    background-color: rgb(143, 255, 249);
+}
+
+/* form */
+
+#form-area{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20vh;
+}
+
+.form-top{
+    justify-content: center;
+}
+
+.form-top > h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-top > p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.form-explain{
+    display: flex;
+    justify-content: center;
+    font
+}
