@@ -3,10 +3,39 @@
   margin: 0;
 }
 
+body {
+  font-family: 'Playfair Display', serif;
+}
+
 a {
   text-decoration: none;
 }
 
+
+ul {
+  list-style: none;
+}
+/* ヘッダー */
+.header-flex {
+  background-color: rgb(243, 158, 172);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header-a {
+  color: black;
+}
+
+
+/* ヘッダー終わり */
 
 
   /* ヘッダー */
