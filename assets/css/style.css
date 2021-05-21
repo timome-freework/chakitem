@@ -33,17 +33,43 @@ ul {
 .header-a {
   color: black;
 }
-
-
 /* ヘッダー終わり */
+/* メイン始まり */
+.section1 {
+  /* background-color: blueviolet; */
+  background-image: url("http://placehold.jp/600x300.png");
+  /* background-position: ; */
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: fixed ;
 
+  height: 90vh;
+}
+/* section2 */
+.section2 {
+  background-color: pink;
+  width: 1200px;
+  margin: 0 auto;
 
-  /* ヘッダー */
-  /* ヘッダー終わり */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center; */
+}
 
-  /* メイン始まり */
+.section2-h2 {
+  margin: 0 auto;
+}
 
-  /* メイン終わり */
-
-  /* フッター始まり */
-  /* フッター終わり */
+.section2-flex {
+  display: flex;
+  justify-content: space-around;
+  
+}
+.chaki-flex, .tem-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* メイン終わり */
+/* フッター始まり */
+/* フッター終わり */
