@@ -45,10 +45,11 @@ ul {
 
   height: 90vh;
 }
-/* section2 */
+/* -------------------------------------------------------section2 */
 .section2 {
   background-color: pink;
   width: 1200px;
+  padding: 0 0 2%;
   margin: 0 auto;
 
   /* display: flex;
@@ -56,8 +57,9 @@ ul {
   align-items: center; */
 }
 
-.section2-h2 {
-  margin: 0 auto;
+.section2-h1 {
+  text-align: center;
+  padding: 2% 0;
 }
 
 .section2-flex {
@@ -65,11 +67,51 @@ ul {
   justify-content: space-around;
   
 }
-.chaki-flex, .tem-flex {
+
+.chaki-flex {
+  width: 45%;
+  background-color: blueviolet;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.chaki-flex2 {
+  /* width: 50%; */
+  background-color: cadetblue;
+
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+/* -----------------------------------------------section3 */
+.section3 {
+  background-color: yellowgreen;
+  width: 1200px;
+  padding: 0 0 2%;
+  margin: 0 auto; 
+}
+
+.section3-h1 {
+  text-align: center;
+}
+
+.section3-ul {
   display: flex;
   justify-content: space-around;
-  align-items: center;
 }
 /* メイン終わり */
 /* フッター始まり */
+  .footer {
+    background-color: aquamarine;
+  }
+  .footer-p {
+    color: white;
+    text-align: center;
+    padding-top: 2%;
+    background-color: blueviolet;
+    height: 100px;
+  }
 /* フッター終わり */
