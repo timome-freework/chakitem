@@ -17,7 +17,7 @@ ul {
 }
 /* ヘッダー */
 .header-flex {
-  background-color: rgb(243, 158, 172);
+  background-color: rgb(247, 210, 255);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -108,10 +108,15 @@ ul {
     background-color: aquamarine;
   }
   .footer-p {
-    color: white;
     text-align: center;
     padding-top: 2%;
-    background-color: blueviolet;
+    background-color: rgb(143, 255, 249);
     height: 100px;
   }
 /* フッター終わり */
+
+メインカラー
+{
+  background-color: rgb(247, 210, 255);
+  background-color: rgb(143, 255, 249);
+}
