@@ -7,23 +7,8 @@
 a {
     text-decoration: none;
 }
-/*---------- ここは仮---------- */
-/* header（仮） */
-.f-header{
-    height: 50px;
-    width: 100vw;
-    background-color: rgb(247, 210, 255);
-}
-/* footer（仮） */
-.f-footer{
-    height: 100px;
-    width: 100vw;
-    background-color: rgb(143, 255, 249);
-}
-
 
 /*---------- ここからform---------- */
-
 /* form */
 
 #formarea{
@@ -31,7 +16,7 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
 .formarea-top, .formarea-group{
