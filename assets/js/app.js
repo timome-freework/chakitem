@@ -38,6 +38,15 @@ $(function () {
 
 
 // 共通ヘッダー;
+function header(){
+  $.ajax({
+      url: "header.html",
+      cache: false,
+      success: function(html){
+          document.write(html);
+      }
+  });
+}
 // function header() {
 //   $.ajax({
 //     url: "header.html",
