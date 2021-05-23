@@ -5,33 +5,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/work.css">
+    <link rel="stylesheet" href="./assets/css/other.css">
     <link rel="stylesheet" href="./assets/css/style.css">
+
     <title>work</title>
 </head>
 
 <main>
             <!------ header読み込み -------->
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script>
-        $(function () {
-            $("#header").load("header.html");
-            $("#footer").load("footer.html");
-        });
-    </script>
     <div id="header"></div>
             <!------ header読み込み終了 -------->
+    <!-- <section id="worksarea-container" class="section2"> 
+        <h1 class="section2-h1"><a href="#">WORKS</a></h1> -->
 
-
-    <section id="worksarea-container">
+    <section id="worksarea-container"> 
         <div class="worksarea-top">
             <h1>WORKS</h1>
-            <p>制作実績</p>
+            <p>お仕事の依頼はコンタクトフォームからお願いいたします</p>
         </div>
         <div class="worksarea-groupList">
             <!------ ①LPページ制作 -------->
-            <h2><span class=”block”>LPページ制作</span></h2>
+            <h2><span class=”block”>WEBページ制作</span></h2>
             <ul class="gallery">
                 <li class="gallery-item">
                     <div class="effect-scale">
@@ -151,13 +149,18 @@
     </section>
         <!-- フッター始まり -->
         <div id="footer"></div>
-
         <!-- フッター終わり -->
 </main>
 <!-- jQuery -->
-
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script type="text/javascript" src="./assets/js/sub.js"></script>
 <script type="text/javascript" src="./assets/js/jquery.inview.min.js"></script>
+<script>
+    $(function () {
+        $("#header").load("header.html");
+        $("#footer").load("footer.html");
+    });
+</script>
 </body>
 
 </html>
