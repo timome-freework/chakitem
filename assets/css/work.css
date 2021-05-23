@@ -24,7 +24,7 @@ a {
 
 /*---------- ここからworks---------- */
 #worksarea-container{
-    padding: 0 10vw;
+    /**/
 }
 
 .worksarea-top > h1{
@@ -38,24 +38,25 @@ a {
     text-align: center;
     margin: 10px 0 20px 0;
 }
-
-.worksarea-groupList > h2{
-    padding-top: 30px;
+.worksarea-groupList{
 
 }
 
+.worksarea-groupList > h2{
+    padding-top: 50px;
+    padding-left: 10vw;
+}
+
 .gallery{
-    display: flex;
-    justify-content:flex-start;
-    flex-wrap: wrap;
-    align-items:center;
+    display:flex;
     padding: 20px;
 }
 
 .gallery-item{
     width: 300px;
     height: 240px;
-    margin: 10px 30px;
+    padding-bottom: 50px;
+    justify-content: center;
 }
 .gallery-item > .effect-scale{
     transition:  .5s;
@@ -67,23 +68,85 @@ a {
     transform: translateY(-4px);
 }
 
-figcaption >p {
+figcaption > p {
     font-size: 11px;
     color: gray;
     padding-top: 10px;
 }
 
+.effect-scale{
+    position: relative;
+}
+
+.effect-scale > p{
+    position: absolute;
+    font-size: 10px;
+    color:white;
+    top: 0;
+    left:0
+}
+.figure-img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.gallery-item p:hover{
+        /**/
+}
+/* ふわっとフェードインするアニメーション */
+
+.fadeIn_up {
+    opacity: 0;
+    transform: translate(0, 50%);
+    transition: 2s;
+}
+.fadeIn_up.is-show {
+    transform: translate(0, 0);
+    opacity: 1;
+}
 
 @media screen and (min-width:480px) { 
     /*　画面サイズが480pxからはここを読み込む*/
-    .resizeimage img { width: 80%; }
+    #worksarea-container{
+        padding: 0;
+    }
+    .gallery-item{
+        margin: 10px 20px;
+    }
+    .gallery{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む*/
-    .resizeimage img { width: 80%; }
+    #worksarea-container{
+        padding: 0;
+    }
+    .gallery-item{
+        margin: 10px 20px;
+    }
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
 @media screen and (min-width:1024px) {
     /*　画面サイズが1024pxからはここを読み込む*/
-    .resizeimage img { width: 100%; }
-
+    #worksarea-container{
+        padding: 0;
+    }
+    .gallery-item{
+        margin: 10px 7px;
+    }
+    .gallery{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
 }
