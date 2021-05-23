@@ -1,30 +1,36 @@
 
+$(function () {
+  
+
 
 // ------------------------about us-------------------------
-//  $('#all-chaki').hide();
-//  $('#all-tem').hide();
-//  $('.chakitem-slide').hide();
+ $('#all-chaki').hide();
+ $('#all-tem').hide();
+ $('.chakitem-slide').hide();
 
 
 
-  // $(function () {
+  $(function () {
 
-  // $('#all-chaki').hide();
-  // $('#all-tem').hide();
-  // $('.chakitem-slide').hide();
+  $('#all-chaki').hide();
+  $('#all-tem').hide();
+  $('.chakitem-slide').hide();
 
-  // $('#chaki-h2').on('click', function () {
-  //   $('#all-chaki').slideDown();
-  // });
+  $('#chaki-h2').on('click', function () {
+    $('#all-chaki').slideDown();
+  });
 
-  // $('#tem-h2').on('click', function () {
-  //   $('#all-tem').slideDown();
-  // });
+  $('#tem-h2').on('click', function () {
+    $('#all-tem').slideDown();
+  });
 
-  // $('#chakitem').on('click', function () {
-  //   $('.chakitem-slide').slideDown();
-  // });
-// }
+  $('#chakitem').on('click', function () {
+    $('.chakitem-slide').slideDown();
+  });
+
+});
+
+});
 
 
 
