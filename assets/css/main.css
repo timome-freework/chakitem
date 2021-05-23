@@ -29,7 +29,7 @@ ul {
 /* ヘッダー */
 .m-head-flex {
   background-color: rgb(247, 210, 255);
-  padding: .5%;
+  padding: 1.2%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -49,12 +49,16 @@ ul {
 .m-head-a {
   color: black;
 }
+.m-head-a:hover {
+  border-bottom: 1px solid rgb(143, 255, 249);
+  color: white;
+}
 /* ヘッダー終わり */
 /* メイン */
 .m-section1 {
   /* background-color: aquamarine; */
   font-family: 'Dancing Script', cursive;
-  height: 800px;
+  height: 540px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,8 +107,9 @@ ul {
 
 /* footer */
 .m-footer {
-  background-color: rgb(143, 255, 249);
+  /* background-color: rgb(143, 255, 249); */
   padding: .5%;
+  margin-top: 200px;
 }
 .m-footer-p {
   text-align: center;
