@@ -8,9 +8,9 @@ a {
     text-decoration: none;
 }
 
-
-/*---------- ここからabout CSS---------- */
-/* About us */
+/*--------------------------- */
+/*   ここからAbout Us CSS       */
+/*---------------------------- */
 .section2-h1 {
     /* background-color: cadetblue; */
     border-right: 4px double black;
@@ -104,8 +104,10 @@ a {
     height: 450px;
 }
 
-/*---------- ここからform CSS---------- */
-/* form */
+
+/*--------------------------- */
+/*   ここからform CSS          */
+/*---------------------------- */
 
 #formarea{
     display: flex;
@@ -154,7 +156,10 @@ a {
 }
 
 
-/*---------- ここからworks CSS---------- */
+/*--------------------------- */
+/*   ここからworks CSS          */
+/*---------------------------- */
+
 #worksarea-container{
     display: flex;
     justify-content: space-around;
