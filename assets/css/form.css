@@ -9,13 +9,13 @@ a {
 }
 /*---------- ここは仮---------- */
 /* header（仮） */
-header{
+.f-header{
     height: 50px;
     width: 100vw;
     background-color: rgb(247, 210, 255);
 }
 /* footer（仮） */
-footer{
+.f-footer{
     height: 100px;
     width: 100vw;
     background-color: rgb(143, 255, 249);
