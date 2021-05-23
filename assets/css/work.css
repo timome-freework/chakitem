@@ -23,3 +23,67 @@ a {
 
 
 /*---------- ここからworks---------- */
+#worksarea-container{
+    padding: 0 10vw;
+}
+
+.worksarea-top > h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.worksarea-top > p{
+    font-size: 15px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+
+.worksarea-groupList > h2{
+    padding-top: 30px;
+
+}
+
+.gallery{
+    display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    align-items:center;
+    padding: 20px;
+}
+
+.gallery-item{
+    width: 300px;
+    height: 240px;
+    margin: 10px 30px;
+}
+.gallery-item > .effect-scale{
+    transition:  .5s;
+    border: solid 1px black;
+}
+
+.gallery-item > .effect-scale:hover{
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    transform: translateY(-4px);
+}
+
+figcaption >p {
+    font-size: 11px;
+    color: gray;
+    padding-top: 10px;
+}
+
+
+@media screen and (min-width:480px) { 
+    /*　画面サイズが480pxからはここを読み込む*/
+    .resizeimage img { width: 80%; }
+}
+@media screen and (min-width:768px) and ( max-width:1024px) {
+    /*　画面サイズが768pxから1024pxまではここを読み込む*/
+    .resizeimage img { width: 80%; }
+}
+@media screen and (min-width:1024px) {
+    /*　画面サイズが1024pxからはここを読み込む*/
+    .resizeimage img { width: 100%; }
+
+}
