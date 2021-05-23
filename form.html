@@ -13,9 +13,16 @@
 
 <body>
     <!-- メイン始まり -->
-    <header class="f-header">
-        <!-- ※index.htmlコピー -->
-    </header>
+    <!-- ヘッダーはじまり -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
+    <div id="header"></div>
+
     <!-- ヘッダー終わり -->
 
 
@@ -52,9 +59,8 @@
 
 
     <!-- フッター始まり -->
-    <footer class="f-footer">
-        <!-- ※index.htmlコピー -->
-    </footer>
+    <div id="footer"></div>
+
     <!-- フッター終わり -->
 
 </body>
