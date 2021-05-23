@@ -47,10 +47,24 @@ ul {
 /* -------------------------------------------------------section2 */
 
 .section2-h1 {
-  background-color: cadetblue;
+  /* background-color: cadetblue; */
+  border-right: 4px double black;
   writing-mode: vertical-rl;
   text-orientation: upright;
+  box-shadow: 2px 0 rgb(143, 255, 249);
+  cursor: pointer;
 }
+.section2-h1 > a {
+  color: black;
+}
+
+.section2-h1:active {
+  box-shadow: none;
+  position: relative;
+  left: 8px;
+
+}
+
 .section2 {
   display: flex;
   justify-content: space-around;
@@ -59,13 +73,69 @@ ul {
 
 .flex {
   width: 900px;
-  background-color: pink;
+  /* background-color: pink; */
 }
 
 .section2-flex {
-  display: flex;
+  padding-bottom: 100px;
+  border-bottom: 1px solid black;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
+/* -----------------------chaki--------------------- */
+.chaki-h2 {
+  font-family: 'EB Garamond', serif;
+  font-size: 3em;
+  text-shadow: 2px 2px 2px rgb(247, 210, 255);
+  padding: 30px 0 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+
+  display: inline-block;
+  position: relative;
+}
+
+.chaki-h2::before,
+.chaki-h2::after {
+  content: '';
+  position: absolute;
+  bottom: -3px;
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 1s;
+}
+.chaki-h2::before {
+  right: 50%;
+}
+.chaki-h2::after {
+  left: 50%;
+}
+.chaki-h2:hover::before,
+.chaki-h2:hover::after {
+  width: 50%;
+}
+
+.all {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.chaki-img {
+  border-radius: 50%;
+}
+
+.chaki-h3 {
+  font-size: 1.5em;
+}
+
+/* <!-- --------------------------chakitem -------------------------------------------> */
+.iframe {
+  width: 700px;
+  height: 450px;
+}

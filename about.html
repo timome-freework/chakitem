@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
-    <!-- h1のgooglefont↑↑ -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Lobster&display=swap" rel="stylesheet">
+    <!-- about-h1のgooglefont↑↑ -->
     
     <link rel="stylesheet" href="./assets/css/about.css">
     <link rel="stylesheet" href="./assets/css/main.css">
@@ -14,14 +14,14 @@
     <title>work</title>
 </head>
 <body>
-  <header class="main-head">
+  <header class="main-head"  id="about">
     <div class="m-head-flex">
         <!-- <div class="m-head-left">
             <img src="./assets/img/icon.png" alt="" width="100" height="50">
         </div> -->
         <nav class="m-head-nav">
             <ul class="m-head-ul">
-                <li class="m-head-li"><a class="m-head-a" href="">Home</a></li>
+                <li class="m-head-li"><a class="m-head-a" href="main.html#home">Home</a></li>
                 <li class="m-head-li"><a class="m-head-a" href="#about">About Us</a></li>
                 <li class="m-head-li"><a class="m-head-a" href="#works">Works</a></li>
                 <li class="m-head-li"><a class="m-head-a" href="form.html#formarea">Contact</a></li>
@@ -31,44 +31,66 @@
 </header>
         <main>
 <!-- -----------------------------section2 ---------------------------------->
-        <section class="section2" id="about">
-          <h1 class="section2-h1">ABOUT US</h1>
+        <section class="section2">
+          <h1 class="section2-h1"><a href="#">ABOUT US</a></h1>
 <!-- --------------------------chaki ------------------------------------------->
           <div class="flex">
-          <div class="section2-flex">
-              <h2 class="chaki-h2">Designer,Enginear&amp;CEO</h2>
+            <div class="section2-flex">
+            <h2 class="chaki-h2" id="chaki-h2">CEO&amp;Designer</h2>
+          <div class="all" id="all-chaki">
             <div class="chaki">
-              <img src="./assets/img/coffee.jpg" alt=""> 
+              <img src="./assets/img/about.jpg" alt="" class="chaki-img">
+            </div>  
+            <div class="chaki-h3">
               <h3 class="chaki-h3">Chaki</h3>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
-            </div> 
+              <ul class="chaki-ul">
+                <li class="chaki-li">出身地:木星</li>
+                <li class="chaki-li">趣味:ダイビング</li>
+                <li class="chaki-li">言語:javascript jQuery</li>           
+              </ui>
+            </div>
+          </div>
           </div>
 <!-- --------------------------tem ------------------------------------------->
-          <div class="section2-flex">
-              <h2 class="chaki-h2">Designer,Enginear&amp;CEO</h2>
+          <div class="flex">
+            <div class="section2-flex">
+            <h2 class="chaki-h2" id="tem-h2">CEO&amp;Enginer</h2>
+          <div class="all" id="all-tem">
             <div class="chaki">
-              <img src="./assets/img/coffee.jpg" alt=""> 
-              <h3 class="chaki-h3">Chaki</h3>
-          </div> 
-          <div>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
-              <p>Living in Tokyo</p>
+              <img src="./assets/img/about.jpg" alt="" class="chaki-img">
+            </div>  
+            <div class="chaki-h3">
+              <h3 class="chaki-h3">Tem</h3>
+              <ul class="chaki-ul">
+                <li class="chaki-li">出身地:彗星</li>
+                <li class="chaki-li">趣味:散歩</li>
+                <li class="chaki-li">言語:HTML CSS</li>
+              </ui>
             </div>
-          </div> <!-- chaki-flex -->
-        </div> <!-- flex -->
+          </div>
+          </div>
 <!-- --------------------------chakitem ------------------------------------------->
+          <div class="chakitem">
+            <h2 class="chaki-h2" id="chakitem">&#12849;Chakitem</h2>
+            <div class="chakitem-slide">
+              <ul class="chakitem-ul">
+                <li class="chakitem-li">所在地:Persiaran Persekutuan, Presint 1, 62502 Putrajaya, Wilayah Persekutuan Putrajaya, マレーシア</li>
+                <li class="chakitem-li">Tel:+60388885678</li>
+              </ul>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28287.23712703143!2d101.68048278979757!3d2.9256058822624693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdb61818046d5d%3A0x53f252ce4a40a088!2z44OX44OI44Op44Oi44K544Kv!5e0!3m2!1sja!2sjp!4v1621751991156!5m2!1sja!2sjp" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" class="iframe"></iframe>
+            </div>
+
+          </div>
 
         </section>
 <!-- -----------------------------section2終わり ---------------------------------->
         </main>
-        <footer>
-            
+        <footer class="m-footer">
+          <p class="m-footer-p">&copy;Chakitem</p>
         </footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="./assets/js/app.js"></script>
 
 </body>
 </html>
