@@ -32,7 +32,10 @@ $(function () {
 
 });
 
-
+// トップへ戻るh1のaboutにつけた
+// $('#q9-btn').on('click', function() {
+//   $('body, html').animate({scrollTop: 0}, 500);
+// });
 
 // ------------------------about us終わり-------------------------
 
