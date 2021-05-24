@@ -28,11 +28,18 @@ ul {
  }
  /* ヘッダー */
  .m-head-flex {
+   width: 100vw;
+   height: 8vh;
    background-color: rgb(247, 210, 255);
-   padding: 1.2%;
+   padding: 5px 10px;
+   
    display: flex;
    justify-content: space-around;
    align-items: center;
+
+   position: fixed;
+   top: 0;
+   left: 0;
  }
  
  .m-head-ul {
@@ -58,7 +65,7 @@ ul {
  .m-section1 {
    /* background-color: aquamarine; */
    font-family: 'Dancing Script', cursive;
-   height: calc(100vh - 8vh - 72px);
+   height: calc(100vh - 8vh - 8vh);
    padding-left: 15%;
 
    display: flex;
