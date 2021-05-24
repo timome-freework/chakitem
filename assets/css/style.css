@@ -24,6 +24,7 @@ ul {
   background-attachment: fixed ;
  
   height: 100vh;
+  position: relative;
  }
  /* ヘッダー */
  .m-head-flex {
@@ -57,7 +58,9 @@ ul {
  .m-section1 {
    /* background-color: aquamarine; */
    font-family: 'Dancing Script', cursive;
-   height: 540px;
+   height: calc(100vh - 8vh - 72px);
+   padding-left: 15%;
+
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -106,17 +109,27 @@ ul {
  
  /* footer */
  .m-footer {
-   /* background-color: rgb(143, 255, 249); */
-   padding: .5%;
-   margin-top: 200px;
+   width: 100vw;
+   height: 8vh;
+   background-color: rgb(143, 255, 249);
+   /* padding: .5%; */
+   /* margin-top: 30%; */
+
+   position: absolute;
+   bottom: 0;
+   left: 0;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
  }
  .m-footer-p {
    text-align: center;
    padding: 5px 10px;
  }
 
-メインカラー
+/* メインカラー
 {
   background-color: rgb(247, 210, 255);
   background-color: rgb(143, 255, 249);
-}
+} */
