@@ -1,13 +1,15 @@
 *{
     padding: 0;
     margin: 0;
-    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
 }
 
 a {
     text-decoration: none;
 }
 
+h2{
+    font-family: 'EB Garamond', serif;
+}
 /*--------------------------- */
 /*   ここからAbout Us CSS       */
 /*---------------------------- */
@@ -114,7 +116,7 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 15vh;
+    margin:25vh 0;
 }
 
 .formarea-top, .formarea-group{
@@ -125,6 +127,11 @@ a {
 .formarea-top > h1{
     font-size: 30px;
     text-align: center;
+    padding-left: 0vw;
+    border-bottom: 4px double black;
+    /* writing-mode: vertical-rl; */
+    box-shadow: 0 2px rgb(143 255 249);
+    cursor: pointer;
 }
 
 .formarea-top > p{
@@ -165,12 +172,17 @@ a {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin-top: 15vh;
+    margin:25vh 0;
 }
 
 .worksarea-top > h1{
     font-size: 30px;
     text-align: center;
+    padding-left: 0vw;
+    border-bottom: 4px double black;
+    /* writing-mode: vertical-rl; */
+    box-shadow: 0 2px rgb(143 255 249);
+    cursor: pointer;
 }
 
 
@@ -228,7 +240,7 @@ figcaption > p {
     left:0
 }
 .figure-img{
-    width: 300px;
+    width: 298px;
     height: 250px;
     object-fit: cover;
     display: block;
@@ -278,8 +290,9 @@ figcaption > p {
     .gallery{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        max-width: 680px;
     }
 }
 @media screen and (min-width:1024px) {
@@ -288,12 +301,13 @@ figcaption > p {
         padding: 0;
     }
     .gallery-item{
-        margin: 10px 7px;
+        margin: 10px 10px;
     }
     .gallery{
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
+        max-width: 960px;
     }
 }
