@@ -198,6 +198,7 @@ a {
     height: 240px;
     padding-bottom: 50px;
     justify-content: center;
+    
 }
 .gallery-item > .effect-scale{
     transition:  .5s;
@@ -230,10 +231,11 @@ figcaption > p {
     width: 300px;
     height: 250px;
     object-fit: cover;
+    display: block;
 }
 
 .gallery-item p:hover{
-        /**/
+    /*ssss*/
 }
 /* ふわっとフェードインするアニメーション */
 
