@@ -29,9 +29,80 @@ h2{
     box-shadow: none;
     position: relative;
     left: 8px;
-
 }
-
+/*------------------------ ハートボタンハートボタン */
+.heart-button {
+    color: black;
+    position: relative;
+    /* height: 50px; */
+    display: inline-block;
+    /* background-color: #eaecf0c4;
+    padding: 0.8em 2.4em;
+    border-radius: 5px;
+    border: 2px solid black; */
+  
+    transition: all 0.3s ease;
+  }
+  
+  .heart-button::before,
+  .heart-button::after {
+    content: "";
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    opacity: 0;
+  }
+  /* 左上のハートのスタイル */
+  .heart-button::before {
+    background-image: url('../img/aboutus-img/heart.svg');
+    top: 0;
+    left: -20px;
+  }
+  /* 右下のハートのスタイル */
+  .heart-button::after {
+    background-image: url('../img/aboutus-img/heart-reverse.svg');
+    bottom: -6px;
+    right: -50px;
+  }
+  /* ========= ホバー時のスタイル ======== */
+  
+  /* ボタンホバー時のスタイル */
+  .heart-button:hover {
+    background-color: #fff;
+    /* border: 1px solid #5a5c5ec4; */
+    /* color: #5a5c5ec4; */
+  }
+  /* ボタンホバー時の左上のハートのスタイル */
+  .heart-button:hover::before {
+    animation: heart 3s infinite ease-out;
+  }
+  
+  /* ボタンホバー時の右下のハートのスタイル */
+  .heart-button:hover::after {
+    animation: heart 3s 0.2s infinite ease-out;
+  }
+  /* ========= アニメーションの設定 ======== */
+  @keyframes heart {
+    0% {
+      transform: translateY(0) scale(1);
+      opacity: 0;
+    }
+    25% {
+      transform: translateY(-20px);
+      opacity: 1;
+    }
+    75% {
+      transform: translateY(20px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100px) scale(2);
+      opacity: 0;
+    }
+  }
+/*----------------------------- クリックハート終わり */
 .section2 {
     display: flex;
     justify-content: space-around;
