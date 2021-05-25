@@ -32,6 +32,12 @@ $(function () {
 
 });
 
+// 画像をlightboxを付けた
+lightbox.option({
+  'resizeDuration': 200,
+  'wrapAround': true
+})
+
 // トップへ戻るh1のaboutにつけた
 // $('#q9-btn').on('click', function() {
 //   $('body, html').animate({scrollTop: 0}, 500);
