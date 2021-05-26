@@ -110,7 +110,7 @@ h2{
 }
 
 .flex {
-    width: 900px;
+    width: 50rem;
     padding: 10% 0;
     /* background-color: pink; */
 }
@@ -162,7 +162,7 @@ h2{
 .all {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .chaki-img {
@@ -179,8 +179,8 @@ h2{
 
   /* <!-- --------------------------chakitem -------------------------------------------> */
 .iframe {
-    width: 700px;
-    height: 450px;
+    width: 45rem;
+    height: 35rem;
     margin-bottom: 10%;
 }
 
@@ -462,6 +462,45 @@ figcaption > p {
         text-align: center;
         padding-left: 0vw;
     }
+
+    /* about usはココから */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  } 
+  .section2-h1 {
+    writing-mode: horizontal-tb;
+    padding-top: 100px;
+    border-right: none;
+    box-shadow: 0 2px rgb(143, 255, 249);
+    border-bottom: 4px double black;
+  }
+  .section2-flex {
+    width: 100%;
+  }
+
+  .all {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chaki-h2 {
+    display: block;
+    text-align: center;
+  }
+
+/* <!-- ------chakitem -------> */
+.chakitem-ul {
+  width: 30rem;
+  margin: 0 0 0 8rem;
+}
+.iframe {
+  width: 50%;
+  height: 25rem;
+  margin: 0 0 0 10rem;
+}
+/* about usはココで終わり */
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
     /*　画面サイズが768pxから1024pxまではここを読み込む*/
@@ -478,6 +517,40 @@ figcaption > p {
         align-items: center;
         max-width: 680px;
     }
+
+/* about usはココから */
+  .section2 {
+    flex-direction: column;
+    align-items: center;
+  } 
+  .section2-h1 {
+    writing-mode: horizontal-tb;
+    padding-top: 100px;
+    border-right: none;
+    box-shadow: 0 2px rgb(143, 255, 249);
+    border-bottom: 4px double black;
+  }
+  .section2-flex {
+    width: 100%;
+  }
+
+  .all {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .chaki-h2 {
+    display: block;
+    text-align: center;
+  }
+
+/* <!-- ------chakitem -------> */
+.iframe {
+  width: 100%;
+}
+/* about usはココで終わり */
+
 }
 @media screen and (min-width:1024px) {
     /*　画面サイズが1024pxからはここを読み込む*/
@@ -494,4 +567,6 @@ figcaption > p {
         align-items: center;
         max-width: 960px;
     }
+  
+
 }
