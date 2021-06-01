@@ -464,7 +464,7 @@ figcaption > p {
     }
 
     /* about usはココから */
-  .section2 {
+  /* .section2 {
     flex-direction: column;
     align-items: center;
   } 
@@ -476,7 +476,8 @@ figcaption > p {
     border-bottom: 4px double black;
   }
   .section2-flex {
-    width: 100%;
+    width: 80%;
+    margin: 0 auto;
   }
 
   .all {
@@ -488,9 +489,13 @@ figcaption > p {
   .chaki-h2 {
     display: block;
     text-align: center;
-  }
+  } */
 
 /* <!-- ------chakitem -------> */
+/* .chakitem {
+  width: 80%;
+  margin: 0 auto;
+}
 .chakitem-ul {
   width: 30rem;
   margin: 0 0 0 8rem;
@@ -499,7 +504,7 @@ figcaption > p {
   width: 50%;
   height: 25rem;
   margin: 0 0 0 10rem;
-}
+} */
 /* about usはココで終わり */
 }
 @media screen and (min-width:768px) and ( max-width:1024px) {
@@ -519,7 +524,7 @@ figcaption > p {
     }
 
 /* about usはココから */
-  .section2 {
+   .section2 {
     flex-direction: column;
     align-items: center;
   } 
@@ -530,10 +535,11 @@ figcaption > p {
     box-shadow: 0 2px rgb(143, 255, 249);
     border-bottom: 4px double black;
   }
-  .section2-flex {
-    width: 100%;
+  .flex {
+    max-width: 90%;
   }
-
+  
+  /*
   .all {
     flex-direction: column;
     justify-content: center;
@@ -543,11 +549,11 @@ figcaption > p {
   .chaki-h2 {
     display: block;
     text-align: center;
-  }
+  } */
 
 /* <!-- ------chakitem -------> */
 .iframe {
-  width: 100%;
+  max-width: 100%;
 }
 /* about usはココで終わり */
 
